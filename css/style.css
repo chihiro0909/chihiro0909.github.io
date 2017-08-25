@@ -1,0 +1,626 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	color: #696969;
+}
+
+.content {
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+li{
+	/*list-style: none;*/
+
+}
+
+header{
+	width: 100%;
+	background-color: #993333;
+	position: fixed;/*ヘッダーを固定*/
+    z-index: 1000;/*重なりの順番を上に*/
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top_menu{
+		float: right;
+		width: 80%;
+		line-height: 70px;
+	}
+
+.top_menu-sp{
+		float: right;
+		width: 80%;
+		line-height: 70px;
+	}
+
+.top_menu-item-pc{
+	float:left;/*横並び*/
+	color: #FAFAFA;
+	width: 14%;
+	list-style: none;
+}
+
+.top_menu-item-sp{
+	float:left;/*横並び*/
+	color: #FAFAFA;
+	width: 14%;
+	list-style: none;
+}
+
+.top_menu-name{
+	display: block;
+	padding: 0 30px;
+	color: #FAFAFA;
+	text-decoration: none;
+}
+
+
+#container{
+	height: 803px;
+}
+
+.slide_title{
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+	padding-top: 366px;
+	font-size: 50px;
+	text-align: center;
+	opacity: 1;
+}
+.style_img{
+	background-color: gray;
+	opacity: 0.8;
+}
+
+.style_image1{
+	background-image: url(../img/P1015695.JPG);	
+}
+
+.style_image2{
+	background-image: url(../img/DSC_0309.JPG);	
+}
+
+.style_image3{
+	background-image: url(../img/ファイル_004.jpeg);	
+}
+
+.section{
+	padding-top: 80px;
+}
+
+.information_container,
+.concept_container,
+.recipe_container,
+.menu_container,
+.access_container,
+.order_container{
+	text-align: center;
+}
+
+/*.concept_container{
+	background-color: Window;
+	opacity: 0.8;
+}*/
+
+.information_title,
+.concept_title,
+.recipe_title,
+.menu_title,
+.access_title,
+.order_title{
+	padding-bottom: 6px;
+	/*border-bottom: 3px solid #DEB887;*/
+	width: 150px;
+    margin: 0 auto;
+    /*margin-top: 80px;*/
+    text-align: center;
+}
+
+.border{
+	width: 100px;
+	height: 2px;
+	background-color: #DEB887;
+	margin: 0 auto;
+}
+
+.information_text,
+.concept_text,
+.recipe_text,
+.order_text{
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.recipe_text{
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.recipe_container-box{
+	width: 500px;
+	height: 300px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.recipe_boxes{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.recipe_box{
+	margin: 0 auto;
+	width:1024px;
+}
+
+.opacity{
+	width: 100%;
+	height: 365px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.recipe_box-image1{
+	background-image: url(../img/kama.png);
+}
+
+.recipe_box-image2{
+	background-image: url(../img/nara2.jpg);
+}
+.recipe_box-image3{
+	background-image: url(../img/kama.jpg);
+}
+
+.recipe_box-image4{
+	background-image: url(../img/tegone.jpg);
+}
+
+.recipe_box-image5{
+	background-image: url(../img/hatkou.jpg);
+}
+
+.recipe_box-image6{
+	background-image: url(../img/kamadasi.jpg);
+}
+
+.recipe_box-image7{
+	background-image: url(../img/dekiagari.jpg);
+}
+
+.recipe_box1{/*奇数の段*/
+	float:left;
+	width: 50%;	
+}
+.recipe_box2{/*偶数の段*/
+	float:right;
+	width: 50%;	
+}
+
+.recipe_box-image,
+.recipe-text{
+	height: 365px;
+	width: 50%;
+	background-size: 100% 100%;
+	font-size: 18px;
+}
+
+/*.recipe_box-item1{
+	position: relative;
+}*/
+
+.recipe-text{
+	display: table-cell;
+	width: 512px;
+	height: 365px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.menu_circle{
+	width: 944px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+.menu_circle-images{
+	float: left;
+	display: block;
+	width: 230px;
+	margin: 2px;
+}
+
+
+.menu_circle-image{
+	/*float: left;*/
+	display: block;
+	width: 220px;
+	height: 220px;
+	margin: 15px auto;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+.menu_list-text{
+	list-style: aqua;
+	margin-left: 20px;
+}
+
+/*わかんない！*/
+/*.shokupan ul li:nth-child(4):last-child {
+	margin: 40px;
+}*/
+
+
+.menu_circle-image1{
+	background-image: url(../img/anpan.png);
+}
+
+.menu_circle-image2{
+	background-image: url(../img/coppe.png);
+}
+
+.menu_circle-image3{
+	background-image: url(../img/mame.png);
+}
+
+.menu_circle-image4{
+	background-image: url(../img/shokupan.jpg);
+}
+
+.hover{
+	display: none;
+    height: 220px;
+    width: 220px;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 20px;
+    text-align: center;
+    line-height: 220px;
+    border-radius: 50%;
+    background-position: center;
+}
+
+.bread{
+	display: none;
+	padding-left: 10px;
+	background-color: Window;
+	border-radius: 10px;
+}
+
+.anpan_name,
+.coppe_name,
+.shokupan_name,
+.kakushoku_name{
+	font-size: 18px;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    /*あとで戻すかもしれない*/
+    /*float: left;*/
+}
+
+/*いつか使う（ニュースロゴ）*/
+/*.news-logo {
+	background: rgb(140,140,140);
+	color: white;
+	padding: 4px 5px 5px 5px;
+	border-radius: 5px;
+}*/
+.fa{
+	font-size: 22px;
+}
+
+.content_table{
+	float: left;
+	margin: 30px;
+}
+
+.table{
+	border-collapse: collapse;
+}
+
+.map{
+	width: 400px;
+	height: 250px;
+	margin: 60px;
+	border: 0;
+}
+
+iframe{
+	float: right;
+	margin-right: 200px;
+}
+
+
+footer{
+	width: 100%;
+    height: 55px;
+    background-color: #993333;
+    text-align: center;
+    line-height: 55px;
+    color: #FAFAFA;
+}
+
+/*PC版*/
+@media all and (min-width:768px){
+	.main-visual-sp,.nav_burg,.nav-sp{
+        display: none;	
+    }
+}
+/*スマホ版*/
+@media all and (max-width:767px){
+	.main-visual-pc{
+        display: none;	
+    }
+
+	.fa-bars {
+    	line-height: 70px;
+	}
+
+	.fa {
+ 	   margin: 0 20px 0 0;
+ 	   font-size: 40px;
+	}
+	
+	.top_menu-sp{
+		display: none;
+		width: 100%;
+		margin-top: 70px;
+		float: none;
+		text-align: center;
+	}
+
+
+	.top_menu-item-sp{
+		float: none;
+		width: 100%;
+		background-color: #993333;
+		/*display: none;*/
+	}
+
+	.nav_burg {
+		float: right;
+		height: 70px;
+		color: white;
+		background-position: center;
+	}
+
+	.main_title{
+		font-size: 18px;
+	}
+
+	.sub_title{
+		font-size: 12px;
+		line-height: 30px;
+	}
+
+	#container{
+		width: 100%;
+		height: 379px;
+	}
+
+	.recipe_boxes{
+		float: none;
+    	margin: 0 auto;
+    	padding-top: 80px;
+	}
+
+	.fa{
+		font-size: 18px;
+	}
+
+	.recipe_box-image4,
+	.recipe_box-image5,
+	.recipe_box-image6,
+	.recipe_box-image7,
+	.recipe_box-item4,
+	.recipe_box-item5,
+	.recipe_box-item6,
+	.recipe_box-item7{
+		display: none;
+	}
+
+	.recipe_box1,/*奇数の段*/
+	.recipe_box2{/*偶数の段*/
+		float: none;	
+	}
+
+	.menu_circle-images{
+		float: none;
+		display: block;
+		width: 100%;
+		
+		/*margin: 2px;*/
+	}
+
+	.menu_circle-image{
+		float: left;
+		/*display: block;*/
+		width: 130px;
+		height: 130px;
+		margin: 13px auto;
+		margin-bottom: 90px;
+		/*background-size: cover;
+		background-position: center;*/
+		/*border-radius: 50%;*/
+	}
+
+	.hover{
+		/*display: none;*/
+	    height: 130px;
+	    width: 130px;
+	    font-size: 13px;
+	    line-height: 130px;
+	}
+
+	.menu_list-text{
+		float: left;
+		width: 180px;
+	}
+
+
+	.bread{
+		display: block;
+	}
+
+	.anpan_name,
+	.coppe_name,
+	.shokupan_name,
+	.kakushoku_name{
+		font-size: 15px;
+	}
+	iframe{
+		float: none;
+	}
+
+	.content_table{
+		float: left;
+		/*width: 100%;*/
+	}
+
+	.map{
+		margin: 0;
+	}
+	.content{
+		width: 100%;
+	}
+
+	.nav-pc{
+		display: none;
+	}
+/*
+	.nav-sp{
+	    width: 100%;
+	}*/
+
+	.information_title,
+	.concept_title,
+	.recipe_title,
+	.menu_title,
+	.access_title,
+	.order_title{
+		width: 100%;
+	}
+
+	.recipe_container-box{
+		width: 100%;
+		height: 180px;
+	}	
+
+	.recipe_box{
+		width: 100%
+	}
+
+	.recipe_box-image{
+		width: 100%;
+	}
+
+	.menu_circle{
+    	width: 100%;
+	}
+
+	.recipe_box1,.recipe_box2{
+		width: 100%;
+	}
+
+	.map{
+		width: 100%;
+	}
+
+	.recipe-text{
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: 30px;
+		text-align: center;
+		vertical-align: middle;
+		margin: 50px 0px;
+	}
+
+	.slide_title{
+		padding-top: 145px;
+		font-size: 40px;
+	}
+
+/*タブレット版*/
+@media all and (max-width: 1024px,min-width: 767px){
+	.main-visual-tb{
+        display: none;	
+    }
+    .rexipe_box{
+    	width: 100%;
+    }
+
+    .recipe_text{
+    	width: 100%;
+    }
+
+    .recipe_box-image4,
+	.recipe_box-image5,
+	.recipe_box-image6,
+	.recipe_box-image7,
+	.recipe_box-item4,
+	.recipe_box-item5,
+	.recipe_box-item6,
+	.recipe_box-item7{
+		display: none;
+	}
+
+	.content {
+	    width: 100%;
+	}
+	/*.information_container,
+	.concept_container,
+	.recipe_container,
+	.menu_container,
+	.access_container,
+	.order_container{
+		text-align: center;
+		margin: 0 auto;
+	}*/
+
+	.recipe_box1,/*奇数の段*/
+	.recipe_box2{/*偶数の段*/
+		float: none;	
+	}
+
+	.menu_circle{
+		width: 100%;
+	}
+
+	.menu_circle-images{
+		width: 100%;
+	}
+
+	.nav-sp{
+		/*display: none;*/
+	}
+}
+
+
+
+
