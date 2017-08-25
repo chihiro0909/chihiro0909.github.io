@@ -262,6 +262,7 @@ header{
 	background-position: center;
 	border-radius: 50%;
 }
+
 .menu_list-text{
 	list-style: aqua;
 	margin-left: 20px;
@@ -400,6 +401,7 @@ footer{
 		width: 100%;
 		background-color: #993333;
 		/*display: none;*/
+		border-top: 1px solid white;
 	}
 
 	.nav_burg {
@@ -452,7 +454,8 @@ footer{
 	.menu_circle-images{
 		float: none;
 		display: block;
-		width: 100%;
+		width: 80%;
+		margin: 0 auto;
 		
 		/*margin: 2px;*/
 	}
@@ -468,6 +471,24 @@ footer{
 		background-position: center;*/
 		/*border-radius: 50%;*/
 	}
+
+	.menu_circle-image1{
+		margin-bottom: 40px;
+	}
+
+	.menu_circle-image2{
+		margin-bottom: 100px;
+	}
+
+	.menu_circle-image3{
+		margin-bottom: 120px;
+	}
+
+	.menu_circle-image4{
+		margin-bottom: none;
+	}
+
+
 
 	.hover{
 		/*display: none;*/
