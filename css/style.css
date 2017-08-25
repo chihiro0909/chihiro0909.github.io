@@ -454,8 +454,9 @@ footer{
 	.menu_circle-images{
 		float: none;
 		display: block;
-		width: 100%;
+		width: 80%;
 		margin: 0 auto;
+		padding-bottom: 20px;
 		
 		/*margin: 2px;*/
 	}
@@ -506,6 +507,8 @@ footer{
 
 	.bread{
 		display: block;
+		float: left;
+		width: 50%;
 	}
 
 	.anpan_name,
