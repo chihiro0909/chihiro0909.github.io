@@ -10,7 +10,7 @@
     display: block;
 }
 
-body{
+body{/*bodyの書体*/
 	font-family: 'Quicksand', sans-serif;
 	color: #696969;
 }
@@ -80,7 +80,7 @@ header{
 .slide_title{
 	color: white;
 	font-family: 'Libre Baskerville', serif;
-	padding-top: 366px;
+	padding-top: 276px;
 	font-size: 50px;
 	text-align: center;
 	opacity: 1;
@@ -95,11 +95,11 @@ header{
 }
 
 .style_image2{
-	background-image: url(../img/DSC_0309.JPG);	
+	background-image: url(../img/DSC_0991.JPG);	
 }
 
 .style_image3{
-	background-image: url(../img/ファイル_004.jpeg);	
+	background-image: url(../img/DSC_1011.JPG);	
 }
 
 .section{
@@ -174,7 +174,7 @@ header{
 	width:1024px;
 }
 
-.opacity{
+.opacity{/*透け感*/
 	width: 100%;
 	height: 365px;
 	background-color: rgba(0,0,0,0.5);
@@ -370,19 +370,19 @@ footer{
 @media all and (min-width:768px){
 	.main-visual-sp,.nav_burg,.nav-sp{
         display: none;	
-    }
+    }/*横幅768px以上の時.main-visual-sp,.nav_burg,.nav-spを表示させない*/
 }
 /*スマホ版*/
 @media all and (max-width:767px){
 	.main-visual-pc{
         display: none;	
-    }
+    }/*横幅767px以下の時.main-visual-pcを表示させない*/
 
 	.fa-bars {
     	line-height: 70px;
 	}
 
-	.fa {
+	.fa {/*アイコン*/
  	   margin: 0 20px 0 0;
  	   font-size: 40px;
 	}
@@ -404,7 +404,7 @@ footer{
 		border-top: 1px solid white;
 	}
 
-	.nav_burg {
+	.nav_burg{
 		float: right;
 		height: 70px;
 		color: white;
