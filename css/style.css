@@ -86,7 +86,7 @@ header{
 	opacity: 1;
 }
 .style_img{
-	background-color: gray;
+	/*background-color: gray;*/
 	opacity: 0.8;
 }
 
@@ -174,37 +174,37 @@ header{
 	width:1024px;
 }
 
-.opacity{/*透け感*/
-	width: 100%;
+/*.opacity{*//*透け感*/
+/*	width: 100%;
 	height: 365px;
 	background-color: rgba(0,0,0,0.5);
-}
+}*/
 
 .recipe_box-image1{
-	background-image: url(../img/kama.png);
+	background-image: url(../img/kama_image_0031.JPG);
 }
 
 .recipe_box-image2{
-	background-image: url(../img/nara2.jpg);
+	background-image: url(../img/nara1_1009.JPG);
 }
 .recipe_box-image3{
-	background-image: url(../img/kama.jpg);
+	background-image: url(../img/kama1_0081.JPG);
 }
 
 .recipe_box-image4{
-	background-image: url(../img/tegone.jpg);
+	background-image: url(../img/tegone1_0012.JPG);
 }
 
 .recipe_box-image5{
-	background-image: url(../img/hatkou.jpg);
+	background-image: url(../img/hakkou1_0075.JPG);
 }
 
 .recipe_box-image6{
-	background-image: url(../img/kamadasi.jpg);
+	background-image: url(../img/kamadashi2_0171.JPG);
 }
 
 .recipe_box-image7{
-	background-image: url(../img/dekiagari.jpg);
+	background-image: url(../img/kamanobi1_0185.JPG);
 }
 
 .recipe_box1{/*奇数の段*/
@@ -275,19 +275,19 @@ header{
 
 
 .menu_circle-image1{
-	background-image: url(../img/anpan.png);
+	background-image: url(../img/anpan_tanpin_0124.JPG);
 }
 
 .menu_circle-image2{
-	background-image: url(../img/coppe.png);
+	background-image: url(../img/coppe_tanpin2_0115.JPG);
 }
 
 .menu_circle-image3{
-	background-image: url(../img/mame.png);
+	background-image: url(../img/shokupan_plane2_0186.JPG);
 }
 
 .menu_circle-image4{
-	background-image: url(../img/shokupan.jpg);
+	background-image: url(../img/kakushoku_image1_0184.JPG);
 }
 
 .hover{
