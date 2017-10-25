@@ -437,11 +437,11 @@ footer{
 
 	.recipe_box-image4,
 	.recipe_box-image5,
-	.recipe_box-image6,
+	/*.recipe_box-image6,*/
 	.recipe_box-image7,
 	.recipe_box-item4,
 	.recipe_box-item5,
-	.recipe_box-item6,
+	/*.recipe_box-item6,*/
 	.recipe_box-item7{
 		display: none;
 	}
@@ -609,7 +609,7 @@ footer{
 	.recipe_box-image7,
 	.recipe_box-item4,
 	.recipe_box-item5,
-	.recipe_box-item6,
+	/*.recipe_box-item6,*/
 	.recipe_box-item7{
 		display: none;
 	}
